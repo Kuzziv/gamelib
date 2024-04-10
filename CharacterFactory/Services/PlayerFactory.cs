@@ -11,7 +11,7 @@ namespace GameLib.CharacterFactory.Services
     /// <summary>
     /// Concrete factory for creating Hero characters.
     /// </summary>
-    public class PlayerFactory : ICharacterAbstractFactory
+    public class PlayerFactory : ICharacterFactory
     {
         public CharacterBase CreateCharacter(string name, int health, int attackDamage, int defense, int x, int y)
         {

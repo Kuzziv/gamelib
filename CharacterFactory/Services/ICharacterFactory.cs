@@ -7,7 +7,7 @@ namespace CharacterFactory.Services
     /// <summary>
     /// Interface for creating characters in the game.
     /// </summary>
-    public interface ICharacterAbstractFactory
+    public interface ICharacterFactory
     {
         CharacterBase CreateCharacter(string name, int health, int attackDamage, int defense, int x, int y);
 

@@ -11,7 +11,7 @@ namespace GameLib.CharacterFactory.Services
     /// <summary>
     /// Concrete factory for creating Monster characters.
     /// </summary>
-    public class NpcFactory : ICharacterAbstractFactory
+    public class NpcFactory : ICharacterFactory
     {
         public CharacterBase CreateCharacter(string name, int health, int attackDamage, int defense, int x, int y)
         {
