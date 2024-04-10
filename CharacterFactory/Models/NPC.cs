@@ -5,10 +5,10 @@ namespace CharacterFactory.Models
     /// <summary>
     /// Represents a monster character in the game, derived from the <see cref="CharacterBase"/> class.
     /// </summary>
-    public class Monster : CharacterBase
+    public class NPC : CharacterBase
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Monster"/> class with specified parameters.
+        /// Initializes a new instance of the <see cref="Npc"/> class with specified parameters.
         /// </summary>
         /// <param name="name">The name of the monster.</param>
         /// <param name="health">The health points of the monster.</param>
@@ -16,7 +16,7 @@ namespace CharacterFactory.Models
         /// <param name="defense">The defense points of the monster.</param>
         /// <param name="x">The X-coordinate of the monster's position.</param>
         /// <param name="y">The Y-coordinate of the monster's position.</param>
-        public Monster(string name, int health, int attackDamage, int defense, int x, int y)
+        public NPC(string name, int health, int attackDamage, int defense, int x, int y)
             : base(name, health, attackDamage, defense, x, y)
         {
         }
@@ -36,7 +36,7 @@ namespace CharacterFactory.Models
         /// Attacks the specified enemy hero.
         /// </summary>
         /// <param name="enemy">The hero being attacked.</param>
-        public void Attack(Hero enemy)
+        public void Attack(Player enemy)
         {
             int damageDealt = Math.Max(AttackDamage - enemy.Defense, 0);
             enemy.Health -= damageDealt;

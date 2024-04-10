@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cWyp7VDf/5XkY8Hz0LhabWcr0cWSQcaSdkzsJ9TyGwhXFWw9diNViLmtDkYIVJvgTCLleD2K4ZD2Iyx9K/e1gw==",
+  "dgSpecHash": "6GsbiudqmuzCW9PXZZbj3eYH79TZ7Ejdzn0sq6Yb3n/Qh3g+g0R6qYp3spYBuVzlAk11oow+ygHiurJkTRRItA==",
   "success": true,
-  "projectFilePath": "/home/tito/Projects/GameLib/GameLib.csproj",
+  "projectFilePath": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\GameLib.csproj",
   "expectedPackageFiles": [
-    "/home/tito/.nuget/packages/yamldotnet/15.1.2/yamldotnet.15.1.2.nupkg.sha512"
+    "C:\\Users\\mads-\\.nuget\\packages\\yamldotnet\\15.1.2\\yamldotnet.15.1.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,11 +10,11 @@ namespace Engine.Services
     public class GameService
     {
         private readonly World _world;
-        private readonly Hero _hero;
-        private readonly Monster _monster;
+        private readonly Player _hero;
+        private readonly NPC _monster;
         private readonly ILogger _logger;
 
-        public GameService(World world, Hero hero, Monster monster, ILogger logger)
+        public GameService(World world, Player hero, NPC monster, ILogger logger)
         {
             _world = world;
             _hero = hero;
