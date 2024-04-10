@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cWyp7VDf/5XkY8Hz0LhabWcr0cWSQcaSdkzsJ9TyGwhXFWw9diNViLmtDkYIVJvgTCLleD2K4ZD2Iyx9K/e1gw==",
+  "success": true,
+  "projectFilePath": "/home/tito/Projects/GameLib/GameLib.csproj",
+  "expectedPackageFiles": [
+    "/home/tito/.nuget/packages/yamldotnet/15.1.2/yamldotnet.15.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

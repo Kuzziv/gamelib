@@ -1,0 +1,12 @@
+/home/tito/Projects/GameLib/bin/Debug/net8.0/GameLib.deps.json
+/home/tito/Projects/GameLib/bin/Debug/net8.0/GameLib.dll
+/home/tito/Projects/GameLib/bin/Debug/net8.0/GameLib.pdb
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.csproj.AssemblyReference.cache
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.AssemblyInfoInputs.cache
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.AssemblyInfo.cs
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.csproj.CoreCompileInputs.cache
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.dll
+/home/tito/Projects/GameLib/obj/Debug/net8.0/refint/GameLib.dll
+/home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.pdb
+/home/tito/Projects/GameLib/obj/Debug/net8.0/ref/GameLib.dll
