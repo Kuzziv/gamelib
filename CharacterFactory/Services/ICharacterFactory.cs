@@ -9,8 +9,7 @@ namespace CharacterFactory.Services
     /// </summary>
     public interface ICharacterFactory
     {
-        Hero CreateHero(string name, int health, int attackDamage, int defense, int x, int y);
-        Monster CreateMonster(string name, int health, int attackDamage, int defense, int x, int y);
+        CharacterBase CreateCharacter(string name, int health, int attackDamage, int defense, int x, int y);
 
     }
 

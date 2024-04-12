@@ -10,3 +10,16 @@
 /home/tito/Projects/GameLib/obj/Debug/net8.0/refint/GameLib.dll
 /home/tito/Projects/GameLib/obj/Debug/net8.0/GameLib.pdb
 /home/tito/Projects/GameLib/obj/Debug/net8.0/ref/GameLib.dll
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.csproj.AssemblyReference.cache
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.AssemblyInfoInputs.cache
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.AssemblyInfo.cs
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.csproj.CoreCompileInputs.cache
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.sourcelink.json
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\bin\Debug\net8.0\GameLib.deps.json
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\bin\Debug\net8.0\GameLib.dll
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\bin\Debug\net8.0\GameLib.pdb
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.dll
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\refint\GameLib.dll
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\GameLib.pdb
+C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\obj\Debug\net8.0\ref\GameLib.dll
