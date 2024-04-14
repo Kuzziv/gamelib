@@ -7,6 +7,9 @@ namespace Logging.Services
 {
     public class TraceLogger : ILogger
     {
+        private static TraceLogger _instance;
+        private static readonly object _lock = new object();
+
         private readonly string _logDirectory;
         private readonly ISerializer _serializer;
 
@@ -14,6 +17,18 @@ namespace Logging.Services
         {
             _logDirectory = logDirectory;
             _serializer = new SerializerBuilder().Build();
+        }
+
+        public static TraceLogger GetInstance(string logDirectory)
+        {
+            lock (_lock)
+            {
+                if (_instance == null)
+                {
+                    _instance = new TraceLogger(logDirectory);
+                }
+                return _instance;
+            }
         }
 
         public void LogInformation(string message)
@@ -53,14 +68,14 @@ namespace Logging.Services
                 string logFilePath = Path.Combine(_logDirectory, "TraceLog.yaml");
                 using (StreamWriter writer = File.AppendText(logFilePath))
                 {
-                    var logEntry = new 
-                    { 
-                        Message = message, 
-                        CallerClass = callingClass, 
+                    var logEntry = new
+                    {
+                        Message = message,
+                        CallerClass = callingClass,
                         CallerMethod = callingMethod?.Name,
                         EventId = eventId,
                         ProcessName = processName,
-                        Timestamp = DateTime.Now 
+                        Timestamp = DateTime.Now
                     };
 
                     var yaml = _serializer.Serialize(logEntry);

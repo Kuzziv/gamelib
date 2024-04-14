@@ -1,47 +1,37 @@
 # gamelib
 
-In order to pass this AWSC class you need to build a game library, the game it's self need to be turn based.
+In order to pass this AWSC class, you need to build a game library. The game itself needs to be turn-based.
 
+## Requirements Checklist
 
-[x]
-* There needs to be a configuration file, and the config file, should be use for something.
-- I use it to set the log level and trace level, and depending on what it's set. the logger then logs the following setting.
+- [x] There needs to be a configuration file, and the config file should be used for something.
+  - I use it to set the log level and trace level, and depending on what it's set, the logger then logs the following settings.
 
+- [x] The library needs to use logging and tracing.
+  - I have built a custom logger and tracer that can be used throughout the library.
 
-[x]
-* The library needs to use logging and tracing.
-- I have build a custom logger and tracer that can be use though out the library.
+- [x] The library needs to follow the SOLID principles:
+  - Single Responsibility Principle
+  - Open/closed Principle
+  - Liskov Substitution
+  - Interface Segregation
+  - Dependency inversion
+  - I have used SOLID throughout the whole library.
 
+- [ ] Documentation with Doxygen.
+  - XML comments throughout your library to provide comprehensive documentation.
 
-[]
-* The library needs to follow the SOLID principles
-* Single Responsibility Principle
-* Open/closed Principle
-* Liskov Substitution
-* Interface Segregation 
-* Dependency inversion
-- I have used SOLID though out the hole library
+- [ ] The library needs to use LINQ.
 
+- [x] The library needs to implement at least three C# design patterns:
+  - Observer pattern for characters, depending on what terrain they are on, then get a bonus or a debuff.
+  - Factory pattern for creating characters, depending on what type of character you want to create.
+  - Composite pattern for LootSystem to be able to have a bag that can contain other bags or items.
+  - Singleton pattern for the logger/tracing, so that there is only one instance of the logger/tracing.
 
-[]
-* Documentation with doxygen 
-- XML comments throughout your library to provide comprehensive documentation
+## File Structure
 
-
-[]
-* The library needs to use linq
-- 
-
-
-[]
-* The library needs to Implementat at lest three C# design patterns
-- Observer pattern for characters, depending on what terrain they are on, then get a bouns or a debuff.
-- Factory pattern for creating characters, depending on what type of character you want to create.
-- Composite pattern for LootSystem to be able to have a bag that can contain other bags or items.
-
-
-the file structure should look like this
-
+```
 - Config
   - Models
     - AppConfig.cs
@@ -88,4 +78,10 @@ the file structure should look like this
     - Bag.cs
   - Services
     - LootSystem.cs
+```
 
+## Updates
+
+- Implemented the Singleton pattern for the logger/tracing functionality to ensure only one instance exists throughout the application.
+- Added documentation for clarity and understanding.
+- Organized the file structure according to the specified requirements.

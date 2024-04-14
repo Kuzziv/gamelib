@@ -6,6 +6,9 @@ namespace Logging.Services
 {
     public class YamlFileLogger : ILogger
     {
+        private static YamlFileLogger _instance;
+        private static readonly object _lock = new object();
+
         private readonly string _logDirectory;
         private readonly IDeserializer _deserializer;
         private readonly ISerializer _serializer;
@@ -15,6 +18,18 @@ namespace Logging.Services
             _logDirectory = logDirectory;
             _deserializer = new DeserializerBuilder().Build();
             _serializer = new SerializerBuilder().Build();
+        }
+
+        public static YamlFileLogger GetInstance(string logDirectory)
+        {
+            lock (_lock)
+            {
+                if (_instance == null)
+                {
+                    _instance = new YamlFileLogger(logDirectory);
+                }
+                return _instance;
+            }
         }
 
         public void LogInformation(string message)

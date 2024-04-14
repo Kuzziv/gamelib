@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +66,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CombindLogger.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\CombindLogger.cs",
+              "RelativeDocumentMoniker": "Logging\\Services\\CombindLogger.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\CombindLogger.cs",
+              "RelativeToolTip": "Logging\\Services\\CombindLogger.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwDEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:39:53.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TraceLogger.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\TraceLogger.cs",
+              "RelativeDocumentMoniker": "Logging\\Services\\TraceLogger.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\TraceLogger.cs",
+              "RelativeToolTip": "Logging\\Services\\TraceLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:39:34.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YamlFileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\YamlFileLogger.cs",
+              "RelativeDocumentMoniker": "Logging\\Services\\YamlFileLogger.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\YamlFileLogger.cs*",
+              "RelativeToolTip": "Logging\\Services\\YamlFileLogger.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:39:22.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\README.md",
               "RelativeDocumentMoniker": "README.md",
