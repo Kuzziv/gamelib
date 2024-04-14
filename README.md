@@ -77,10 +77,8 @@ In order to pass this AWSC class, you need to build a game library. The game its
     - IItem.cs
     - Weapon.cs
     - Bag.cs
+    - Consumable.cs
   - Services
     - LootSystem.cs
 ```
 
-## Updates
-
-- Do unit tests for the library.

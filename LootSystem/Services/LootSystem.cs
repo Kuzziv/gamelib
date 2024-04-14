@@ -11,11 +11,31 @@ namespace GameLib.Lootsystem.Services
     {
         public void OpenBag(Bag bag)
         {
+            if (bag == null)
+            {
+                throw new ArgumentNullException(nameof(bag), "The bag cannot be null.");
+            }
+
             Console.WriteLine("Opening bag...");
             foreach (var item in bag.GetItems())
             {
                 Console.WriteLine($"Found {item.Name} in the bag.");
             }
+        }
+
+        public void RemoveItemFromBag(Bag bag, IItem item)
+        {
+            if (bag == null)
+            {
+                throw new ArgumentNullException(nameof(bag), "The bag cannot be null.");
+            }
+
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item), "The item cannot be null.");
+            }
+
+            bag.RemoveItem(item);
         }
 
         public IEnumerable<Bag> GetBagsContainingItemType(IEnumerable<Bag> bags, Type itemType)
