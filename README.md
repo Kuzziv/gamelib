@@ -18,7 +18,7 @@ In order to pass this AWSC class, you need to build a game library. The game its
   - Dependency inversion
   - I have used SOLID throughout the whole library.
 
-- [ ] Documentation with Doxygen.
+- [x] Documentation with Doxygen.
   - XML comments throughout your library to provide comprehensive documentation.
 
 - [x] The library needs to use LINQ.
@@ -29,6 +29,13 @@ In order to pass this AWSC class, you need to build a game library. The game its
   - Factory pattern for creating characters, depending on what type of character you want to create.
   - Composite pattern for LootSystem to be able to have a bag that can contain other bags or items.
   - Singleton pattern for the logger/tracing, so that there is only one instance of the logger/tracing.
+
+- [x] MsTesting to insure that everything works
+  - [x] Config
+  - [x] CharacterFactory
+  - [x] Logging
+  - [x] LootSystem
+
 
 ## File Structure
 
