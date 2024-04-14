@@ -9,11 +9,12 @@ namespace GameLib.Lootsystem.Models
     public class Weapon : IItem
     {
         public string Name { get; }
-        // Other properties and methods specific to weapons
+        public int Value { get; }
 
-        public Weapon(string name)
+        public Weapon(string name, int value)
         {
             Name = name;
+            Value = value;
         }
 
         public void Use()

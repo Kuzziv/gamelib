@@ -9,6 +9,7 @@ namespace GameLib.Lootsystem.Models
     public interface IItem
     {
         string Name { get; }
+        int Value { get; }
         void Use();
     }
 }

@@ -30,5 +30,23 @@ namespace GameLib.Lootsystem.Models
         {
             return items;
         }
+
+        public IEnumerable<IItem> GetItemsByName(string name)
+        {
+            return items.Where(item => item.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+        }
+
+        // Example: Get the total value of all items in the bag
+        public int GetTotalValue()
+        {
+            return items.Sum(item => item.Value);
+        }
+
+        // Example: Check if the bag contains a specific item
+        public bool ContainsItem(IItem item)
+        {
+            return items.Contains(item);
+        }
+
     }
 }

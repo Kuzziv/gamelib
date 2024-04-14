@@ -17,5 +17,22 @@ namespace GameLib.Lootsystem.Services
                 Console.WriteLine($"Found {item.Name} in the bag.");
             }
         }
+
+        public IEnumerable<Bag> GetBagsContainingItemType(IEnumerable<Bag> bags, Type itemType)
+        {
+            return bags.Where(bag => bag.GetItems().Any(item => item.GetType() == itemType));
+        }
+
+        // Example: Get the bag with the highest total value
+        public Bag GetBagWithHighestValue(IEnumerable<Bag> bags)
+        {
+            return bags.OrderByDescending(bag => bag.GetTotalValue()).FirstOrDefault();
+        }
+
+        // Example: Get the bag with the most items
+        public Bag GetBagWithMostItems(IEnumerable<Bag> bags)
+        {
+            return bags.OrderByDescending(bag => bag.GetItems().Count()).FirstOrDefault();
+        }
     }
 }
