@@ -5,11 +5,30 @@ namespace GameEnvironment.Models
     /// </summary>
     public enum TerrainType
     {
+        /// <summary>
+        /// Represents normal terrain.
+        /// </summary>
         Normal,
+
+        /// <summary>
+        /// Represents grass terrain.
+        /// </summary>
         Grass,
+
+        /// <summary>
+        /// Represents forest terrain.
+        /// </summary>
         Forest,
+
+        /// <summary>
+        /// Represents mountain terrain.
+        /// </summary>
         Mountain,
+
+        /// <summary>
+        /// Represents water terrain.
+        /// </summary>
         Water,
-        // Add more terrain types as needed
+
     }
 }

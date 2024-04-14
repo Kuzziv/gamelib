@@ -7,10 +7,26 @@ namespace GameEnvironment.Models
     /// </summary>
     public class World
     {
+        /// <summary>
+        /// Gets the width of the world.
+        /// </summary>
         public int Width { get; private set; }
+
+        /// <summary>
+        /// Gets the height of the world.
+        /// </summary>
         public int Height { get; private set; }
+
+        /// <summary>
+        /// Gets the terrain grid representing the world.
+        /// </summary>
         public TerrainType[,] Terrain { get; private set; }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="World"/> class with the specified dimensions.
+        /// </summary>
+        /// <param name="width">The width of the world.</param>
+        /// <param name="height">The height of the world.</param>
         public World(int width, int height)
         {
             Width = width;
@@ -18,6 +34,9 @@ namespace GameEnvironment.Models
             Terrain = new TerrainType[Width, Height];
         }
 
+        /// <summary>
+        /// Generates the terrain of the world.
+        /// </summary>
         public void GenerateTerrain()
         {
             // Implement terrain generation logic here
@@ -32,6 +51,9 @@ namespace GameEnvironment.Models
             }
         }
 
+        /// <summary>
+        /// Renders the terrain of the world to the console.
+        /// </summary>
         public void RenderTerrain()
         {
             // Output the terrain to the console with colors but without symbols

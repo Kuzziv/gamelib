@@ -14,6 +14,13 @@ namespace Engine.Services
         private readonly NPC _monster;
         private readonly ILogger _logger;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="GameService"/> class.
+        /// </summary>
+        /// <param name="world">The game world.</param>
+        /// <param name="hero">The player character.</param>
+        /// <param name="monster">The enemy character.</param>
+        /// <param name="logger">The logger instance.</param>
         public GameService(World world, Player hero, NPC monster, ILogger logger)
         {
             _world = world;
@@ -22,6 +29,10 @@ namespace Engine.Services
             _logger = logger;
         }
 
+        /// <summary>
+        /// Moves the player character in the specified direction.
+        /// </summary>
+        /// <param name="direction">The direction of movement (W, A, S, D).</param>
         public void MovePlayer(char direction)
         {
             int newX = _hero.X;
@@ -55,15 +66,24 @@ namespace Engine.Services
             }
             else
             {
-                
+                // Handle invalid movement
             }
         }
 
+        /// <summary>
+        /// Checks if the specified position is valid within the game world.
+        /// </summary>
+        /// <param name="x">The X-coordinate of the position.</param>
+        /// <param name="y">The Y-coordinate of the position.</param>
+        /// <returns>True if the position is valid; otherwise, false.</returns>
         private bool IsPositionValid(int x, int y)
         {
             return x >= 0 && x < _world.Width && y >= 0 && y < _world.Height;
         }
 
+        /// <summary>
+        /// Performs actions for the enemy character's turn.
+        /// </summary>
         public void EnemyTurn()
         {
             // Implement enemy behavior here

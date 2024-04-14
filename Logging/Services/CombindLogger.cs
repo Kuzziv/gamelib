@@ -1,14 +1,20 @@
+using Config.Services;
 using System;
 using System.Collections.Generic;
-using Config.Services;
-using Logging.Services;
 
 namespace Logging.Services
 {
+    /// <summary>
+    /// Logger that combines multiple loggers and forwards log messages to each of them.
+    /// </summary>
     public class CombinedLogger : ILogger
     {
         private readonly IList<ILogger> _loggers;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CombinedLogger"/> class with the specified log directory.
+        /// </summary>
+        /// <param name="logDirectory">The directory where log files are stored.</param>
         public CombinedLogger(string logDirectory)
         {
             string traceLevel = Environment.GetEnvironmentVariable("TRACE_LEVEL") ?? "Information";
@@ -21,6 +27,10 @@ namespace Logging.Services
             };
         }
 
+        /// <summary>
+        /// Logs an information message.
+        /// </summary>
+        /// <param name="message">The message to log.</param>
         public void LogInformation(string message)
         {
             foreach (var logger in _loggers)
@@ -29,6 +39,10 @@ namespace Logging.Services
             }
         }
 
+        /// <summary>
+        /// Logs a warning message.
+        /// </summary>
+        /// <param name="message">The message to log.</param>
         public void LogWarning(string message)
         {
             foreach (var logger in _loggers)
@@ -37,6 +51,10 @@ namespace Logging.Services
             }
         }
 
+        /// <summary>
+        /// Logs an error message.
+        /// </summary>
+        /// <param name="message">The message to log.</param>
         public void LogError(string message)
         {
             foreach (var logger in _loggers)
@@ -45,6 +63,10 @@ namespace Logging.Services
             }
         }
 
+        /// <summary>
+        /// Logs an exception.
+        /// </summary>
+        /// <param name="exception">The exception to log.</param>
         public void LogException(Exception exception)
         {
             foreach (var logger in _loggers)
