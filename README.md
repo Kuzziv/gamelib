@@ -21,7 +21,8 @@ In order to pass this AWSC class, you need to build a game library. The game its
 - [ ] Documentation with Doxygen.
   - XML comments throughout your library to provide comprehensive documentation.
 
-- [ ] The library needs to use LINQ.
+- [x] The library needs to use LINQ.
+  - The LootSystem uses LINQ for various operations, such as finding bags containing specific items, filtering items based on certain criteria, and performing queries on collections of bags and items to retrieve useful information.
 
 - [x] The library needs to implement at least three C# design patterns:
   - Observer pattern for characters, depending on what terrain they are on, then get a bonus or a debuff.
