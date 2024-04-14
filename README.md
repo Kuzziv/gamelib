@@ -83,6 +83,4 @@ In order to pass this AWSC class, you need to build a game library. The game its
 
 ## Updates
 
-- Implemented the Singleton pattern for the logger/tracing functionality to ensure only one instance exists throughout the application.
-- Added documentation for clarity and understanding.
-- Organized the file structure according to the specified requirements.
+- Do unit tests for the library.
