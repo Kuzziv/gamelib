@@ -1,3 +1,5 @@
+using GameLib.CharacterFactory.Services;
+using GameLib.Lootsystem.Models;
 using System;
 
 namespace CharacterFactory.Models
@@ -5,7 +7,7 @@ namespace CharacterFactory.Models
     /// <summary>
     /// Represents a hero character in the game, derived from the <see cref="CharacterBase"/> class.
     /// </summary>
-    public class Player : CharacterBase
+    public class Player : CharacterBase, IObserver
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="Player"/> class with specified parameters.
@@ -42,6 +44,22 @@ namespace CharacterFactory.Models
             enemy.Health -= damageDealt;
             Console.WriteLine($"{Name} attacks {enemy.Name} and deals {damageDealt} damage!");
         }
+
+        /// <summary>
+        /// Updates the player.
+        /// </summary>
+        public void Update()
+        {
+            // Define behavior when the subject notifies the Player
+        }
+
+        /// <summary>
+        /// Uses an item.
+        /// </summary>
+        /// <param name="item">The item to use.</param>
+        public void UseItem(IItem item)
+        {
+            item.Use(); // Implement logic to use the item
+        }
     }
-    
 }

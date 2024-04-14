@@ -3,9 +3,6 @@
 In order to pass this AWSC class you need to build a game library, the game it's self need to be turn based.
 
 
-
-
-
 [x]
 * There needs to be a configuration file, and the config file, should be use for something.
 - I use it to set the log level and trace level, and depending on what it's set. the logger then logs the following setting.
@@ -37,37 +34,58 @@ In order to pass this AWSC class you need to build a game library, the game it's
 
 
 []
-* The library needs to Implementat at lest three design patterns
-- 
+* The library needs to Implementat at lest three C# design patterns
+- Observer pattern for characters, depending on what terrain they are on, then get a bouns or a debuff.
+- Factory pattern for creating characters, depending on what type of character you want to create.
+- Composite pattern for LootSystem to be able to have a bag that can contain other bags or items.
 
+
+the file structure should look like this
 
 - Config
   - Models
     - AppConfig.cs
   - Services
     - ConfigLoader.cs
+
+- CharacterFactory
+  - Models
+    - CharacterBase.cs
+    - NPC.cs
+    - Player.cs
+  - Services
+    - ICharacterFactory.cs
+    - NPCFactory.cs
+    - PlayerFactory.cs
+    - ISubject.cs
+    - IObserver.cs
+
 - Logging
+  - Models
+    - LogEntry.cs
+    - LogLevel.cs
   - Services
     - ILogger.cs
     - LogLevelFilter.cs
     - TraceLogger.cs
     - YamlFileLogger.cs
-- Tracing
+    - CombinedLogger.cs
+
+- Engine
   - Services
-    - ITracer.cs
-    - TraceLevelFilter.cs
-    - YourTracerImplementation.cs
-- Game
+    - GameEngine.cs
+
+- GameEnvironment
   - Models
-    - Character.cs
-    - GameState.cs
-    - GameEvent.cs
-    - ...
+    - TerrainType.cs
+    - World.cs
+
+- LootSystem
+  - Models
+    - ILootable.cs
+    - IItem.cs
+    - Weapon.cs
+    - Bag.cs
   - Services
-    - GameManager.cs
-    - GameFactory.cs
-    - GameValidator.cs
-    - ...
-- Utils
-  - LinqUtils.cs
-  - ...
+    - LootSystem.cs
+

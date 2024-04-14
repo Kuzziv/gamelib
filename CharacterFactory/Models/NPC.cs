@@ -1,3 +1,5 @@
+using GameLib.CharacterFactory.Services;
+using GameLib.Lootsystem.Models;
 using System;
 
 namespace CharacterFactory.Models
@@ -5,10 +7,10 @@ namespace CharacterFactory.Models
     /// <summary>
     /// Represents a monster character in the game, derived from the <see cref="CharacterBase"/> class.
     /// </summary>
-    public class NPC : CharacterBase
+    public class NPC : CharacterBase, IObserver
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Npc"/> class with specified parameters.
+        /// Initializes a new instance of the <see cref="NPC"/> class with specified parameters.
         /// </summary>
         /// <param name="name">The name of the monster.</param>
         /// <param name="health">The health points of the monster.</param>
@@ -41,6 +43,23 @@ namespace CharacterFactory.Models
             int damageDealt = Math.Max(AttackDamage - enemy.Defense, 0);
             enemy.Health -= damageDealt;
             Console.WriteLine($"{Name} attacks {enemy.Name} and deals {damageDealt} damage!");
+        }
+
+        /// <summary>
+        /// Updates the NPC.
+        /// </summary>
+        public void Update()
+        {
+            // Define behavior when the subject notifies the NPC
+        }
+
+        /// <summary>
+        /// Uses an item.
+        /// </summary>
+        /// <param name="item">The item to use.</param>
+        public void UseItem(IItem item)
+        {
+            item.Use(); // Implement logic to use the item
         }
     }
 }

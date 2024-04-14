@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameLib
-build_property.ProjectDir = /home/tito/Projects/GameLib/
+build_property.ProjectDir = C:\Users\mads-\OneDrive\Skrivebord\AWSC\gamelib\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -5,6 +5,7 @@ namespace GameEnvironment.Models
     /// </summary>
     public enum TerrainType
     {
+        Normal,
         Grass,
         Forest,
         Mountain,
