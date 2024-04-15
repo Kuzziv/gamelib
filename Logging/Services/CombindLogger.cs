@@ -22,8 +22,8 @@ namespace Logging.Services
 
             _loggers = new List<ILogger>
             {
-                new LogLevelFilter(new YamlFileLogger(logDirectory), logLevel),
-                new LogLevelFilter(new TraceLogger(logDirectory), traceLevel)
+                new LogLevelFilter(YamlFileLogger.GetInstance(logDirectory), logLevel),
+                new LogLevelFilter(TraceLogger.GetInstance(logDirectory), traceLevel)
             };
         }
 

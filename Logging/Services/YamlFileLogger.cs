@@ -20,7 +20,7 @@ namespace Logging.Services
         /// Initializes a new instance of the <see cref="YamlFileLogger"/> class with the specified log directory.
         /// </summary>
         /// <param name="logDirectory">The directory where log files will be stored.</param>
-        public YamlFileLogger(string logDirectory)
+        private YamlFileLogger(string logDirectory)
         {
             _logDirectory = logDirectory;
             _deserializer = new DeserializerBuilder().Build();

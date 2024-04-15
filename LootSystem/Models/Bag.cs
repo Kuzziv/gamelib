@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameLib.LootSystem.Models;
+using System;
 using System.Collections.Generic;
 
 namespace GameLib.Lootsystem.Models
@@ -6,7 +7,7 @@ namespace GameLib.Lootsystem.Models
     /// <summary>
     /// Represents a bag that can contain items.
     /// </summary>
-    public class Bag : ILootable
+    public class Bag : ILootable, ICompositeItem
     {
         private List<IItem> items;
 
@@ -37,7 +38,7 @@ namespace GameLib.Lootsystem.Models
         }
 
         /// <summary>
-        /// Gets all items in the bag.
+        /// Gets all items currently in the bag.
         /// </summary>
         /// <returns>An enumerable collection of items in the bag.</returns>
         public IEnumerable<IItem> GetItems()
@@ -46,32 +47,22 @@ namespace GameLib.Lootsystem.Models
         }
 
         /// <summary>
-        /// Gets items in the bag by name.
+        /// Gets the name of the bag.
         /// </summary>
-        /// <param name="name">The name of the items to retrieve.</param>
-        /// <returns>An enumerable collection of items with the specified name.</returns>
-        public IEnumerable<IItem> GetItemsByName(string name)
-        {
-            return items.Where(item => item.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
-        }
+        public string Name => "Bag";
 
         /// <summary>
         /// Gets the total value of all items in the bag.
         /// </summary>
-        /// <returns>The total value of all items in the bag.</returns>
-        public int GetTotalValue()
-        {
-            return items.Sum(item => item.Value);
-        }
+        public int Value => items.Sum(item => item.Value);
 
         /// <summary>
-        /// Checks if the bag contains a specific item.
+        /// Uses the bag.
         /// </summary>
-        /// <param name="item">The item to check.</param>
-        /// <returns>True if the bag contains the item; otherwise, false.</returns>
-        public bool ContainsItem(IItem item)
+        public void Use()
         {
-            return items.Contains(item);
+            Console.WriteLine("Using Bag...");
+            // Implement logic to use the bag
         }
     }
 }

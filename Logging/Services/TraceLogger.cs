@@ -20,7 +20,7 @@ namespace Logging.Services
         /// Initializes a new instance of the <see cref="TraceLogger"/> class.
         /// </summary>
         /// <param name="logDirectory">The directory where log files will be stored.</param>
-        public TraceLogger(string logDirectory)
+        private TraceLogger(string logDirectory)
         {
             _logDirectory = logDirectory;
             _serializer = new SerializerBuilder().Build();
