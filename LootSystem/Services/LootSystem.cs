@@ -17,6 +17,11 @@ namespace GameLib.Lootsystem.Services
         /// <param name="compositeItem">The composite item to open.</param>
         public void OpenBag(ICompositeItem compositeItem)
         {
+            if (compositeItem == null)
+            {
+                throw new ArgumentNullException(nameof(compositeItem), "The composite item cannot be null.");
+            }
+
             Console.WriteLine("Opening composite item...");
             foreach (var item in compositeItem.GetItems())
             {

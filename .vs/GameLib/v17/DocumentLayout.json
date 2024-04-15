@@ -3,32 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\services\\lootsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\services\\lootsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\models\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\models\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\ilootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\ilootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\icompositeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\icompositeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\consumable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\consumable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\bag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\yamlfilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\tracelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\loglevelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\loglevelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\combindlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\models\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\models\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\config\\services\\configloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:config\\services\\configloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\config\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:config\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\services\\playerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,48 +91,16 @@
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\services\\icharacterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\models\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\models\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\loglevelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\loglevelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\models\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\models\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\services\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\services\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\models\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\models\\loglevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\logging\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:logging\\models\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\consumable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\consumable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\icompositeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\icompositeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\lootsystem\\models\\ilootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:lootsystem\\models\\ilootable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\characterfactory\\models\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:characterfactory\\models\\characterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\gameenvironment\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,14 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\gameenvironment\\models\\terraintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:gameenvironment\\models\\terraintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\config\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:config\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|c:\\users\\mads-\\onedrive\\skrivebord\\awsc\\gamelib\\config\\services\\configloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634577B4-E313-43F2-9358-C6FF9D8D1FBD}|GameLib.csproj|solutionrelative:config\\services\\configloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,46 +162,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "ICompositeItem.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\ICompositeItem.cs",
               "RelativeDocumentMoniker": "LootSystem\\Models\\ICompositeItem.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\ICompositeItem.cs",
               "RelativeToolTip": "LootSystem\\Models\\ICompositeItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T16:47:17.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
               "Title": "Consumable.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Consumable.cs",
               "RelativeDocumentMoniker": "LootSystem\\Models\\Consumable.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Consumable.cs",
               "RelativeToolTip": "LootSystem\\Models\\Consumable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T16:59:27.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "LogLevelFilter.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\LogLevelFilter.cs",
               "RelativeDocumentMoniker": "Logging\\Services\\LogLevelFilter.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\LogLevelFilter.cs",
               "RelativeToolTip": "Logging\\Services\\LogLevelFilter.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADMAAAA9AAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T16:51:19.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "ILogger.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\ILogger.cs",
               "RelativeDocumentMoniker": "Logging\\Services\\ILogger.cs",
@@ -214,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "LogLevel.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Models\\LogLevel.cs",
               "RelativeDocumentMoniker": "Logging\\Models\\LogLevel.cs",
@@ -227,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "LogEntry.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Models\\LogEntry.cs",
               "RelativeDocumentMoniker": "Logging\\Models\\LogEntry.cs",
@@ -240,46 +240,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Bag.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Bag.cs",
               "RelativeDocumentMoniker": "LootSystem\\Models\\Bag.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Bag.cs*",
-              "RelativeToolTip": "LootSystem\\Models\\Bag.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwEQAAAAAAAAA",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Bag.cs",
+              "RelativeToolTip": "LootSystem\\Models\\Bag.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T16:18:42.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "CombindLogger.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\CombindLogger.cs",
               "RelativeDocumentMoniker": "Logging\\Services\\CombindLogger.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\CombindLogger.cs",
               "RelativeToolTip": "Logging\\Services\\CombindLogger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAyAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAwwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T15:39:53.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "TraceLogger.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\TraceLogger.cs",
               "RelativeDocumentMoniker": "Logging\\Services\\TraceLogger.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\TraceLogger.cs*",
-              "RelativeToolTip": "Logging\\Services\\TraceLogger.cs*",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAmwHkAAABAAAAA",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\TraceLogger.cs",
+              "RelativeToolTip": "Logging\\Services\\TraceLogger.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAmwIUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T15:39:34.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "YamlFileLogger.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Logging\\Services\\YamlFileLogger.cs",
               "RelativeDocumentMoniker": "Logging\\Services\\YamlFileLogger.cs",
@@ -292,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "IObserver.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\IObserver.cs",
               "RelativeDocumentMoniker": "CharacterFactory\\Services\\IObserver.cs",
@@ -305,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ISubject.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\ISubject.cs",
               "RelativeDocumentMoniker": "CharacterFactory\\Services\\ISubject.cs",
@@ -318,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "NPCFactory.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\NPCFactory.cs",
               "RelativeDocumentMoniker": "CharacterFactory\\Services\\NPCFactory.cs",
@@ -331,46 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IItem.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\IItem.cs",
-              "RelativeDocumentMoniker": "LootSystem\\Models\\IItem.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\IItem.cs",
-              "RelativeToolTip": "LootSystem\\Models\\IItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:18:45.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Weapon.cs",
-              "RelativeDocumentMoniker": "LootSystem\\Models\\Weapon.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Weapon.cs",
-              "RelativeToolTip": "LootSystem\\Models\\Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:18:51.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LootSystem.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Services\\LootSystem.cs",
-              "RelativeDocumentMoniker": "LootSystem\\Services\\LootSystem.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Services\\LootSystem.cs",
-              "RelativeToolTip": "LootSystem\\Services\\LootSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:18:25.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ICharacterFactory.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\ICharacterFactory.cs",
               "RelativeDocumentMoniker": "CharacterFactory\\Services\\ICharacterFactory.cs",
@@ -383,72 +344,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "CharacterFactory\\Models\\Player.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\Player.cs",
-              "RelativeToolTip": "CharacterFactory\\Models\\Player.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowEAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:38:33.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NPC.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\NPC.cs",
-              "RelativeDocumentMoniker": "CharacterFactory\\Models\\NPC.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\NPC.cs",
-              "RelativeToolTip": "CharacterFactory\\Models\\NPC.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAowCcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:34:21.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\README.md*",
-              "RelativeToolTip": "README.md*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-14T15:34:41.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CharacterBase.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\CharacterBase.cs",
-              "RelativeDocumentMoniker": "CharacterFactory\\Models\\CharacterBase.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\CharacterBase.cs",
-              "RelativeToolTip": "CharacterFactory\\Models\\CharacterBase.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAwwG4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:34:17.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "PlayerFactory.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\PlayerFactory.cs",
               "RelativeDocumentMoniker": "CharacterFactory\\Services\\PlayerFactory.cs",
               "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Services\\PlayerFactory.cs",
               "RelativeToolTip": "CharacterFactory\\Services\\PlayerFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T16:38:49.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Models\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Config\\Models\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Models\\AppConfig.cs",
+              "RelativeToolTip": "Config\\Models\\AppConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:54:47.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfigLoader.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
+              "RelativeDocumentMoniker": "Config\\Services\\ConfigLoader.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
+              "RelativeToolTip": "Config\\Services\\ConfigLoader.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwDMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:54:44.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IItem.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\IItem.cs",
+              "RelativeDocumentMoniker": "LootSystem\\Models\\IItem.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\IItem.cs",
+              "RelativeToolTip": "LootSystem\\Models\\IItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:18:45.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ILootable.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\ILootable.cs",
               "RelativeDocumentMoniker": "LootSystem\\Models\\ILootable.cs",
@@ -461,19 +409,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Models\\AppConfig.cs",
-              "RelativeDocumentMoniker": "Config\\Models\\AppConfig.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Models\\AppConfig.cs",
-              "RelativeToolTip": "Config\\Models\\AppConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Weapon.cs",
+              "RelativeDocumentMoniker": "LootSystem\\Models\\Weapon.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Models\\Weapon.cs",
+              "RelativeToolTip": "LootSystem\\Models\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:47.941Z"
+              "WhenOpened": "2024-04-14T16:18:51.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LootSystem.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Services\\LootSystem.cs",
+              "RelativeDocumentMoniker": "LootSystem\\Services\\LootSystem.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\LootSystem\\Services\\LootSystem.cs",
+              "RelativeToolTip": "LootSystem\\Services\\LootSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:18:25.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-14T15:34:41.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "CharacterFactory\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\Player.cs",
+              "RelativeToolTip": "CharacterFactory\\Models\\Player.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowEAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:38:33.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\NPC.cs",
+              "RelativeDocumentMoniker": "CharacterFactory\\Models\\NPC.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\NPC.cs",
+              "RelativeToolTip": "CharacterFactory\\Models\\NPC.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:34:21.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "CharacterBase.cs",
+              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\CharacterBase.cs",
+              "RelativeDocumentMoniker": "CharacterFactory\\Models\\CharacterBase.cs",
+              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\CharacterFactory\\Models\\CharacterBase.cs",
+              "RelativeToolTip": "CharacterFactory\\Models\\CharacterBase.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAwwIUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:34:17.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "GameSerivce.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Engine\\Services\\GameSerivce.cs",
               "RelativeDocumentMoniker": "Engine\\Services\\GameSerivce.cs",
@@ -485,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "TerrainType.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\GameEnvironment\\Models\\TerrainType.cs",
               "RelativeDocumentMoniker": "GameEnvironment\\Models\\TerrainType.cs",
@@ -497,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "World.cs",
               "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\GameEnvironment\\Models\\World.cs",
               "RelativeDocumentMoniker": "GameEnvironment\\Models\\World.cs",
@@ -506,18 +520,6 @@
               "ViewState": "AQIAACkAAAAAAAAAAADwv1cAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T17:25:35.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ConfigLoader.cs",
-              "DocumentMoniker": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "RelativeDocumentMoniker": "Config\\Services\\ConfigLoader.cs",
-              "ToolTip": "C:\\Users\\mads-\\OneDrive\\Skrivebord\\AWSC\\gamelib\\Config\\Services\\ConfigLoader.cs",
-              "RelativeToolTip": "Config\\Services\\ConfigLoader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:44.458Z"
             }
           ]
         }
